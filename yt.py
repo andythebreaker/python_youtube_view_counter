@@ -26,7 +26,8 @@ FONTSIZE=12
 #ttotf = requests.get(url)
 #myfont = FontProperties(ttotf)
 
-r = requests.get("https://www.youtube.com/user/TEDxTaipei/videos") #將網頁資料GET下來
+r = requests.get("https://www.youtube.com/user/peter125tseng/videos") #將網頁資料GET下來
+#r = requests.get("https://www.youtube.com/user/TEDxTaipei/videos") #將網頁資料GET下來
 #r = requests.get("https://www.youtube.com/channel/UCj_z-Zeqk8LfwVxx0MUdL-Q/videos") #將網頁資料GET下來
 #r.encoding = 'utf-8'
 #print(r.text)
