@@ -106,7 +106,7 @@ print(pppcounter)
 path='/usr/share/fonts/opentype/SourceHanSansTC-Normal.otf'
 prop = font_manager.FontProperties(fname=path)
 matplotlib.rc('font', family=prop.get_name(),size=FONTSIZE)
-matplotlib.rc('figure',figsize=(8,6))
+matplotlib.rc('figure',figsize=(16,9))
 
 plt.barh(sel23, plist,label =ttltll, align = "edge")
 plt.xticks(rotation=45)
