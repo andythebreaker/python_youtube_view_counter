@@ -19,6 +19,7 @@ import requests
 from bs4 import BeautifulSoup
 import urllib
 
+FONTSIZE=18
 #url="https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/TraditionalChinese/SourceHanSansTC-Normal.otf"
 #ttotf = requests.get(url)
 #myfont = FontProperties(ttotf)
@@ -104,7 +105,7 @@ print(pppcounter)
 
 path='/usr/share/fonts/opentype/SourceHanSansTC-Normal.otf'
 prop = font_manager.FontProperties(fname=path)
-matplotlib.rc('font', family=prop.get_name(),size=22)
+matplotlib.rc('font', family=prop.get_name(),size=FONTSIZE)
 
 plt.barh(sel23, plist,label =ttltll, align = "edge")
 plt.xticks(rotation=45)
