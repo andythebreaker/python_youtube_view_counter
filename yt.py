@@ -19,7 +19,7 @@ import requests
 from bs4 import BeautifulSoup
 import urllib
 
-FONTSIZE=6
+FONTSIZE=10
 #url="https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/TraditionalChinese/SourceHanSansTC-Normal.otf"
 #ttotf = requests.get(url)
 #myfont = FontProperties(ttotf)
