@@ -6,7 +6,7 @@
 #路徑C:\Users\bear\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\matplotlib\mpl-data
 #資料備份https://drive.google.com/file/d/1GxWLtaaGU2wSHyc6c20shxNPlkBnjTSj/view?usp=sharing
 #資料備份https://drive.google.com/file/d/1bR7OEyG7Dv3rmkS4L0B7cXeKkWDCPHtv/view?usp=sharing
-import Image
+#import Image
 
 import sys
 reload(sys)
