@@ -6,6 +6,8 @@
 #路徑C:\Users\bear\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\matplotlib\mpl-data
 #資料備份https://drive.google.com/file/d/1GxWLtaaGU2wSHyc6c20shxNPlkBnjTSj/view?usp=sharing
 #資料備份https://drive.google.com/file/d/1bR7OEyG7Dv3rmkS4L0B7cXeKkWDCPHtv/view?usp=sharing
+import Image
+
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
@@ -124,8 +126,8 @@ plt.subplots_adjust(left=0.5, bottom=None, right=0.97, top=None, wspace=None, hs
 #WRONG!!matplotlib.rc('figsize',(10,5))
 #plt.(figsize=(10, 5))
 
-plt.savefig('op.jpeg',dpi=100)
-
+plt.savefig('op.png',dpi=100)
+Image.open('op.png').save('op.jpg','JPEG')
 #print(strALL)
 #normal_samples = np.random.normal(size = 100000) # 生成 100000 組標準常態分配（平均值為 0，標準差為 1 的常態分配）隨機變數
 #uniform_samples = np.random.uniform(size = 100000) # 生成 100000 組介於 0 與 1 之間均勻分配隨機變數
