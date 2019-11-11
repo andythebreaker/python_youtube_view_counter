@@ -115,8 +115,11 @@ plt.xlabel("Title")
 plt.ylabel("Number of views (times)")
 plt.subplots_adjust(left=0.44, bottom=None, right=0.99, top=None, wspace=None, hspace=None)
 
-plt.rcParams['savefig.dpi'] = 300 #圖片像素
-plt.rcParams['figure.dpi'] = 300 #解析度
+#plt.rcParams['savefig.dpi'] = 300 #圖片像素
+#plt.rcParams['figure.dpi'] = 300 #解析度
+#up no use
+
+plt.figure(figsize=(10, 5))
 
 plt.savefig('op.png')
 
