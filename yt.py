@@ -103,7 +103,7 @@ print(pppcounter)
 
 #matplotlib.rc('font', family='Arial')
 
-plt.barh(sel23, plist,label =ttltll, align = "edge")
+plt.barh(sel23, plist,label =ttltll, align = "center")
 plt.xticks(rotation=45)
 
 plt.legend() #要使用label要加這行
