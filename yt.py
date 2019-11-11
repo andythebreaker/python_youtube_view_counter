@@ -126,8 +126,8 @@ plt.subplots_adjust(left=0.5, bottom=None, right=0.97, top=None, wspace=None, hs
 #WRONG!!matplotlib.rc('figsize',(10,5))
 #plt.(figsize=(10, 5))
 
-plt.savefig('op.png',dpi=100)
-Image.open('op.png').save('op.jpg','JPEG')
+plt.savefig('op.jpg',dpi=100)
+#Image.open('op.png').save('op.jpg','JPEG')
 #print(strALL)
 #normal_samples = np.random.normal(size = 100000) # 生成 100000 組標準常態分配（平均值為 0，標準差為 1 的常態分配）隨機變數
 #uniform_samples = np.random.uniform(size = 100000) # 生成 100000 組介於 0 與 1 之間均勻分配隨機變數
