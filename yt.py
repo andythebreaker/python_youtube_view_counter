@@ -19,7 +19,7 @@ import requests
 from bs4 import BeautifulSoup
 import urllib
 
-FONTSIZE=10
+FONTSIZE=12
 #url="https://github.com/adobe-fonts/source-han-sans/raw/release/OTF/TraditionalChinese/SourceHanSansTC-Normal.otf"
 #ttotf = requests.get(url)
 #myfont = FontProperties(ttotf)
@@ -124,7 +124,7 @@ plt.subplots_adjust(left=0.5, bottom=None, right=0.9, top=None, wspace=None, hsp
 #WRONG!!matplotlib.rc('figsize',(10,5))
 #plt.(figsize=(10, 5))
 
-plt.savefig('op.png',dpi=200)
+plt.savefig('op.png',dpi=100)
 
 #print(strALL)
 #normal_samples = np.random.normal(size = 100000) # 生成 100000 組標準常態分配（平均值為 0，標準差為 1 的常態分配）隨機變數
