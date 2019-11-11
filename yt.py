@@ -13,7 +13,8 @@ import matplotlib
 matplotlib.use('Agg')
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.font_manager import FontProperties
+#from matplotlib.font_manager import FontProperties
+import matplotlib.font_manager as font_manager
 import requests
 from bs4 import BeautifulSoup
 import urllib
@@ -101,7 +102,9 @@ print("==========================")
 print(counterforsel123-1)
 print(pppcounter)
 
-matplotlib.rc('font', family='Arial')
+path='/usr/share/fonts/opentype/SourceHanSansTC-Normal.otf'
+prop = font_manager.FontProperties(fname=path)
+matplotlib.rc('font', family=prop.get_name())
 
 plt.barh(sel23, plist,label =ttltll, align = "edge")
 plt.xticks(rotation=45)
