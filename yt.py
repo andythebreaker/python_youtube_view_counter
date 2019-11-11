@@ -115,7 +115,7 @@ plt.legend() #要使用label要加這行
 plt.title("YT film viewing number bar chart in the past month")
 plt.xlabel("Title")
 plt.ylabel("Number of views (times)")
-plt.subplots_adjust(left=0.5, bottom=None, right=0.9, top=None, wspace=None, hspace=None)
+plt.subplots_adjust(left=0.5, bottom=None, right=0.97, top=None, wspace=None, hspace=None)
 
 #plt.rcParams['savefig.dpi'] = 300 #圖片像素
 #plt.rcParams['figure.dpi'] = 300 #解析度
